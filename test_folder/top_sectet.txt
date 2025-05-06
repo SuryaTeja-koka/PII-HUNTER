@@ -1,0 +1,19 @@
+Here are some sample credit card numbers:
+Visa: 4111 1111 1111 1111
+MasterCard: 5500-0000-0000-0004
+Amex: 3400 000000 00009
+Discover: 6011 0000 0000 0004
+Invalid: 1234 5678 9012 3456
+
+
+Contact us at:
+support@example.com
+john.doe99@company.co.uk
+fake-email@notreal
+
+
+Call us at:
++1 (555) 123-4567
+555-987-6543
+(044) 12345678
+1234567890

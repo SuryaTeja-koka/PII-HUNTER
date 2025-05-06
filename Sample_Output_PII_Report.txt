@@ -1,0 +1,68 @@
+
+=== PII-Hunter ===
+Scan Date: 2025-05-06 04:03:54
+Target PII Types: 1, 2, 3
+
+File: ./PII_Report.txt
+  CreditCard found:
+    Line 8: 4111111111111111
+    Line 9: 5500000000000004
+    Line 10: 340000000000009
+
+File: ./test_folder/top_secet.docx
+  Email found:
+    Line 69: A_@RN.JN
+
+File: ./test_folder/top_sectet.txt
+  Email found:
+    Line 10: support@example.com
+    Line 11: john.doe99@company.co.uk
+  Phone found:
+    Line 16: 1 (555) 123-4567
+    Line 17: 555-987-6543
+    Line 19: 1234567890
+
+File: ./test_folder/top_secret.csv
+  CreditCard found:
+    Line 2: 4111111111111111
+    Line 3: 5500000000000004
+    Line 4: 340000000000009
+  Email found:
+    Line 2: alice@example.com
+    Line 3: bob@company.com
+    Line 4: charlie@nowhere.com
+  Phone found:
+    Line 2: 555-234-5678
+    Line 3: 91-9876543210
+    Line 4: 1234567890
+
+File: ./test_folder/possible_false_positives.txt
+  Phone found:
+    Line 6:  123-456-7890
+
+File: ./test_folder/top_secet.pdf
+  Email found:
+    Line 10: support@example.com
+    Line 11: john.doe99@company.co.uk
+  Phone found:
+    Line 16: 1 (555) 123 -4567
+    Line 17: 555-987-6543
+    Line 19: 1234567890
+
+File: ./.git/logs/HEAD
+  Email found:
+    Line 1: root@f2a1d006-f6b6-4a2f-a19f-ae192fa0a3b6.2t4prynt4dlezbzls5ze3dxsqg.rx.internal.cloudapp.net
+  Phone found:
+    Line 1: 1746501886
+
+File: ./.git/logs/refs/heads/main
+  Email found:
+    Line 1: root@f2a1d006-f6b6-4a2f-a19f-ae192fa0a3b6.2t4prynt4dlezbzls5ze3dxsqg.rx.internal.cloudapp.net
+  Phone found:
+    Line 1: 1746501886
+
+File: ./.git/logs/refs/remotes/origin/HEAD
+  Email found:
+    Line 1: root@f2a1d006-f6b6-4a2f-a19f-ae192fa0a3b6.2t4prynt4dlezbzls5ze3dxsqg.rx.internal.cloudapp.net
+  Phone found:
+    Line 1: 1746501886
